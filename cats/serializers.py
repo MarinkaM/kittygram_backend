@@ -50,8 +50,8 @@ class CatSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cat
         fields = (
-            'id', 'name', 'color', 'birth_year', 'achievements', 'owner', 'age',
-            'image'
+            'id', 'name', 'color', 'birth_year', 'achievements', 'owner',
+            'age', 'image',
             )
         read_only_fields = ('owner',)
 
